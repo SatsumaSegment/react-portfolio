@@ -1,0 +1,55 @@
+.card {
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 15px;
+}
+
+.card-title {
+    color: var(--accent-color-1);
+}
+
+.card-image {
+    border-radius: 5px;
+}
+
+.card-text {
+    color: var(--text-color);
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.card-button {
+    height: 2rem;
+    width: 6rem;
+    margin: 2%;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px var(--text-color);
+    opacity: 90%;
+}
+
+.card-button:hover {
+    opacity: 100%;
+}
+
+#card-btn-demo {
+    color: var(--primary-color);
+    background-color: var(--accent-color-1);
+}
+
+#card-btn-demo:active {
+    background-color: color-mix(in srgb, var(--accent-color-1) 90%, white 10%);
+}
+
+#card-btn-repo {
+    color: var(--primary-color);
+    background-color: var(--accent-color-2);
+}
+
+#card-btn-repo:active {
+    background-color: color-mix(in srgb, var(--accent-color-2) 90%, white 10%);
+}
