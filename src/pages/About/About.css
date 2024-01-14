@@ -1,0 +1,25 @@
+.about-section {
+    max-height: 100vh;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2.5rem;
+}
+
+.about-intro {
+    display: flex;
+    justify-content: center;
+    font-size: 1.95rem;
+}
+
+.switch-text {
+    color: var(--accent-color-1);
+}
+
+.about-body {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}

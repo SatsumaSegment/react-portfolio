@@ -1,0 +1,32 @@
+.navbar {
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
+    border-bottom: 1px solid var(--text-color);
+    width: 100vw;
+    text-align: left;
+}
+
+.nav-brand {
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.nav-items {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin-left: 50%;
+}
+
+.nav-item {
+    margin-right: 20%;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--accent-color-1);
+}
