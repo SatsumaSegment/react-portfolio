@@ -29,7 +29,7 @@ function About() {
                     {texts[index % texts.length]}
                 </TextTransition>
             </h2>
-            <p className="about-body">I build websites to suit your need. From fun, interactive web applications to promotional and ecommerce sites. If you need a website, look no further.</p>
+            <p className="about-body">I build websites to suit your needs. From fun, interactive web applications to promotional and ecommerce sites. If you need a website, look no further.</p>
         </div>
     );
 }

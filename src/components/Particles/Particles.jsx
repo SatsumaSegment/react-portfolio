@@ -33,7 +33,7 @@ function BackgroundAnimation() {
                             },
                         },
                         color: {
-                            value: "#f05d23",
+                            value: ["#F05D23", "#5A429D", "#468BF3"],
                         },
                         shape: {
                             type: "circle",
@@ -61,7 +61,7 @@ function BackgroundAnimation() {
                         move: {
                             enable: true,
                             speed: 0.5,
-                            direction: "none",
+                            direction: "top",
                             random: false,
                             straight: false,
                             out_mode: "out",
