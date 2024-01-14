@@ -1,11 +1,17 @@
 .card {
     margin: auto;
+    margin-bottom: 5%;
     padding: 2%;
     width: 50%;
+    max-width: 320px;
     border: 2px solid black;
     border-radius: 15px;
     background-color: var(--secondary-color);
     box-shadow: 0 0 15px;
+}
+
+.card:hover {
+    background-color: color-mix(in srgb, var(--secondary-color) 95%, black 5%);
 }
 
 .card-title {
@@ -13,6 +19,7 @@
 }
 
 .card-image {
+    width: 80%;
     border-radius: 5px;
 }
 

@@ -6,9 +6,11 @@ function FeaturedProjects() {
     return (
         <div className="featured-section">
             <h1 className="featured-title">Featured Projects</h1>
-            <Card />
-            <br />
-            <Card />
+            <div className="card-container">
+                <Card />
+                <br />
+                <Card />
+            </div>
         </div>
     );
 }
