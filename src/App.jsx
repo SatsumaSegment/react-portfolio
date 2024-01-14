@@ -9,14 +9,14 @@ import Navbar from "./components/Header/Navbar";
 import BackgroundAnimation from "./components/Particles/Particles";
 
 // Page imports
-import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
 
 function App() {
     return (
         <div className="app-container">
             <Navbar />
             <Routes>
-                <Route path="/" element={<About />} />
+                <Route path="/" element={<Home />} />
             </Routes>
             <BackgroundAnimation />
         </div>

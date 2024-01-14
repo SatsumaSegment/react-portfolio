@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 // Import components
-import ProfilePicture from "../../components/ProfilePicture/ProfilePicture";
+import ProfilePicture from "../ProfilePicture/ProfilePicture";
 
 // Import CSS
 import "./About.css";
