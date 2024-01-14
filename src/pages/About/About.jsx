@@ -20,6 +20,7 @@ function About() {
 
     return (
         <div className="about-section">
+            <div className="about-border"></div>
             <ProfilePicture />
             <h1 className="about-title">Hi, I'm Greg</h1>
             <h2 className="about-intro">
@@ -28,11 +29,7 @@ function About() {
                     {texts[index % texts.length]}
                 </TextTransition>
             </h2>
-            <p className="about-body">
-                I'm a self-taught programmer with knowledge a number of programming languages, including C++/C, Python and Javascript. I have a keen interest in computers, electronics and anything
-                technology related, with over eight years’ experience assembling and repairing PC and laptop hardware. I have developed a number of software applications as a self-taught programmer
-                and enjoy tinkering with microcontrollers such as the Arduino, Raspberry Pi and ESP-32.
-            </p>
+            <p className="about-body">I build websites to suit your need. From fun, interactive web applications to promotional and ecommerce sites. If you need a website, look no further.</p>
         </div>
     );
 }
