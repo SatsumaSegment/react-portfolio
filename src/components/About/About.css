@@ -35,3 +35,18 @@
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
+
+@media only screen and (max-width: 780px) {
+    .about-section {
+        margin-top: 5%;
+        width: 100vw;
+        height: 85vh;
+    }
+
+    .about-border {
+        border-right: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+        width: 90%;
+        right: 5%;
+    }
+}

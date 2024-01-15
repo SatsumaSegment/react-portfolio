@@ -11,6 +11,10 @@
         "name": "JavaScript",
         "logo": "/images/svg/javascript.svg"
     },
+    "bootstrap": {
+        "name": "Bootstrap",
+        "logo": "/images/svg/bootstrap.svg"
+    },
     "jq": {
         "name": "JQuery",
         "logo": "/images/svg/jquery.svg"
@@ -26,6 +30,10 @@
     "vite": {
         "name": "Vite.js",
         "logo": "/images/svg/vitejs.svg"
+    },
+    "jest": {
+        "name": "Jest.js",
+        "logo": "/images/svg/jest.svg"
     },
     "sql": {
         "name": "SQLite",

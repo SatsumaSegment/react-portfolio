@@ -11,6 +11,7 @@ function FeaturedProjects() {
                 <br />
                 <Card />
             </div>
+            <div className="featured-border"></div>
         </div>
     );
 }

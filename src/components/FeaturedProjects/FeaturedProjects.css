@@ -10,3 +10,19 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+@media only screen and (max-width: 780px) {
+    .featured-section {
+        margin-top: 10%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .featured-border {
+        margin: auto;
+        margin-top: 10%;
+        border-right: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+        width: 90%;
+    }
+}

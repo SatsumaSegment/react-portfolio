@@ -15,10 +15,12 @@ function Skills() {
                 <SkillCard logo={stack.html.logo} name={stack.html.name} />
                 <SkillCard logo={stack.css.logo} name={stack.css.name} />
                 <SkillCard logo={stack.js.logo} name={stack.js.name} />
+                <SkillCard logo={stack.bootstrap.logo} name={stack.bootstrap.name} />
                 <SkillCard logo={stack.jq.logo} name={stack.jq.name} />
                 <SkillCard logo={stack.node.logo} name={stack.node.name} />
                 <SkillCard logo={stack.react.logo} name={stack.react.name} />
                 <SkillCard logo={stack.vite.logo} name={stack.vite.name} />
+                <SkillCard logo={stack.jest.logo} name={stack.jest.name} />
                 <SkillCard logo={stack.sql.logo} name={stack.sql.name} />
                 <SkillCard logo={stack.python.logo} name={stack.python.name} />
                 <SkillCard logo={stack.flask.logo} name={stack.flask.name} />
