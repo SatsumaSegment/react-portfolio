@@ -1,0 +1,12 @@
+.skill-card {
+    text-align: center;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom right, rgba(70, 139, 243, 0.8), rgba(90, 66, 157, 0.8));
+    width: 15%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.skill-card:hover {
+    background-image: linear-gradient(to bottom right, rgba(70, 139, 243, 1), rgba(90, 66, 157, 1));
+}

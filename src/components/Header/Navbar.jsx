@@ -24,11 +24,6 @@ function Navbar() {
                     </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/skills" end className="nav-link">
-                        Skills
-                    </NavLink>
-                </li>
-                <li className="nav-item">
                     <NavLink to="/contact" end className="nav-link">
                         Contact
                     </NavLink>

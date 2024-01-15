@@ -13,12 +13,9 @@
 .nav-items {
     list-style: none;
     display: inline-flex;
+    gap: 10rem;
     padding: 0;
-    margin-left: 50%;
-}
-
-.nav-item {
-    margin-right: 20%;
+    margin-left: 55%;
 }
 
 .nav-link {

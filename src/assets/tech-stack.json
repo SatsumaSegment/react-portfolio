@@ -1,0 +1,62 @@
+{
+    "html": {
+        "name": "HTML5",
+        "logo": "/images/svg/html.svg"
+    },
+    "css": {
+        "name": "CSS3",
+        "logo": "/images/svg/css.svg"
+    },
+    "js": {
+        "name": "JavaScript",
+        "logo": "/images/svg/javascript.svg"
+    },
+    "jq": {
+        "name": "JQuery",
+        "logo": "/images/svg/jquery.svg"
+    },
+    "node": {
+        "name": "Node.js",
+        "logo": "/images/svg/nodejs.svg"
+    },
+    "react": {
+        "name": "React.js",
+        "logo": "/images/svg/reactjs.svg"
+    },
+    "vite": {
+        "name": "Vite.js",
+        "logo": "/images/svg/vitejs.svg"
+    },
+    "sql": {
+        "name": "SQLite",
+        "logo": "/images/svg/sqlite.svg"
+    },
+    "python": {
+        "name": "Python",
+        "logo": "/images/svg/python.svg"
+    },
+    "flask": {
+        "name": "Flask",
+        "logo": "/images/svg/flask.svg"
+    },
+    "cpp": {
+        "name": "C++",
+        "logo": "/images/svg/cpp.svg"
+    },
+    "c": {
+        "name": "C",
+        "logo": "/images/svg/c.svg"
+    },
+    "git": {
+        "name": "Git Bash",
+        "logo": "/images/svg/git-bash.svg"
+    },
+    "github": {
+        "name": "GitHub",
+        "logo": "/images/svg/github.svg"
+    },
+    "gitlab": {
+        "name": "GitLab",
+        "logo": "/images/svg/gitlab.svg"
+    }
+}

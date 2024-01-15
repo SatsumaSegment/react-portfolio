@@ -1,0 +1,29 @@
+.skills-section {
+    margin-top: 5%;
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+}
+
+.stack-title {
+    text-align: center;
+    margin-right: 2%;
+}
+
+.stack-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+
+.skill-cards img {
+    width: 64px;
+}
