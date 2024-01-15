@@ -1,8 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-
 import "./Navbar.css";
 
 function Navbar() {
@@ -12,7 +9,7 @@ function Navbar() {
                 <img className="brand-logo" src=""></img>
                 Greg Duke
             </a>
-            <ul className="nav-items">
+            <ul className="nav-items nav-visible">
                 <li className="nav-item">
                     <NavLink to="/" end className="nav-link">
                         Home

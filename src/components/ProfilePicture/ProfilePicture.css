@@ -12,3 +12,23 @@
     width: 21rem;
     transition: width 200ms;
 }
+
+@media only screen and (max-width: 1200px) {
+    .profile-picture {
+        width: 15rem;
+    }
+
+    .profile-picture:hover {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .profile-picture {
+        width: 20rem;
+    }
+
+    .profile-picture:hover {
+        width: 21rem;
+    }
+}

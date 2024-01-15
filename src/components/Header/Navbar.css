@@ -1,8 +1,10 @@
 .navbar {
+    position: fixed;
     z-index: 100;
     background-image: linear-gradient(var(--primary-color), var(--secondary-color));
     border-bottom: 1px solid var(--text-color);
     width: 100vw;
+    height: 60px;
     text-align: left;
 }
 
@@ -27,4 +29,14 @@
 
 .nav-link:hover {
     color: var(--accent-color-1);
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-items {
+        display: block;
+    }
+
+    .nav-visible {
+        display: none;
+    }
 }

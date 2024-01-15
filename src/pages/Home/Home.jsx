@@ -1,6 +1,7 @@
 import About from "../../components/About/About";
 import FeaturedProjects from "../../components/FeaturedProjects/FeaturedProjects";
 import Skills from "../../components/Skills/Skills";
+import AdditionalSkills from "../../components/Skills/AdditionalSkills";
 
 import "./Home.css";
 
@@ -13,6 +14,7 @@ function Home() {
             </div>
             <div className="home-page-skills">
                 <Skills />
+                <AdditionalSkills />
             </div>
         </>
     );
