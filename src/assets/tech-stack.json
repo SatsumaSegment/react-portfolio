@@ -47,6 +47,10 @@
         "name": "Flask",
         "logo": "/images/svg/flask.svg"
     },
+    "kivy": {
+        "name": "KivyMD",
+        "logo": "/images/svg/kivy.svg"
+    },
     "cpp": {
         "name": "C++",
         "logo": "/images/svg/cpp.svg"

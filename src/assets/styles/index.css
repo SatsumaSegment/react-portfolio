@@ -15,6 +15,7 @@ body {
     padding: 0;
     color: var(--text-color);
     background-color: var(--primary-color);
+    overflow-x: hidden;
 }
 
 #root {

@@ -24,6 +24,7 @@ function Skills() {
                 <SkillCard logo={stack.sql.logo} name={stack.sql.name} />
                 <SkillCard logo={stack.python.logo} name={stack.python.name} />
                 <SkillCard logo={stack.flask.logo} name={stack.flask.name} />
+                <SkillCard logo={stack.kivy.logo} name={stack.kivy.name} />
                 <SkillCard logo={stack.cpp.logo} name={stack.cpp.name} />
                 <SkillCard logo={stack.c.logo} name={stack.c.name} />
                 <SkillCard logo={stack.git.logo} name={stack.git.name} />

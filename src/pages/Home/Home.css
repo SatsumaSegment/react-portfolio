@@ -1,5 +1,7 @@
 .home-page-main {
     display: flex;
+    height: 100vh;
+    font-size: larger;
 }
 
 .home-page-skills {
@@ -16,6 +18,5 @@
     .home-page-skills {
         margin-top: 25%;
         width: 100vw;
-        height: 90vw;
     }
 }
