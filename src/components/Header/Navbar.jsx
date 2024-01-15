@@ -9,8 +9,8 @@ function Navbar() {
     return (
         <nav className="navbar">
             <a href="/" className="nav-brand">
-                <img src=""></img>
-                Brand Placeholder
+                <img className="brand-logo" src=""></img>
+                Greg Duke
             </a>
             <ul className="nav-items">
                 <li className="nav-item">
