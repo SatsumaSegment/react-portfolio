@@ -3,3 +3,18 @@
     width: 60vw;
     text-align: center;
 }
+
+.skills-title-section {
+    display: flex;
+    justify-content: center;
+}
+
+#plus {
+    font-size: 5rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .additional-skills-section {
+        width: 100vw;
+    }
+}

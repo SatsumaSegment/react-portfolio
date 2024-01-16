@@ -24,7 +24,8 @@
     }
 
     .home-page-skills {
-        margin-top: 70em;
+        display: block;
+        margin-top: 42em;
         width: 100vw;
     }
 }

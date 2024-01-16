@@ -13,7 +13,7 @@ function Skills() {
             </div>
             <div className="skill-cards">
                 {stack.data.map((item) => (
-                    <SkillCard logo={item.logo} name={item.name} />
+                    <SkillCard key={item.name} logo={item.logo} name={item.name} />
                 ))}
             </div>
         </div>

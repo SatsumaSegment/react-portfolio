@@ -31,6 +31,6 @@
 
 @media only screen and (max-width: 780px) {
     .skills-section {
-        margin-top: 20%;
+        width: 100vw;
     }
 }

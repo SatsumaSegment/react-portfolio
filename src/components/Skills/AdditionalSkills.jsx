@@ -3,7 +3,10 @@ import "./AdditionalSkills.css";
 function AdditionalSkills() {
     return (
         <div className="additional-skills-section">
-            <h1 className="skills-title">Additional Skills</h1>
+            <div className="skills-title-section">
+                <h1 className="skills-title">Additional Skills</h1>
+                <i id="plus">+</i>
+            </div>
         </div>
     );
 }

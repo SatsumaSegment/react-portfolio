@@ -1,0 +1,17 @@
+.carousel-container {
+    cursor: grab;
+    overflow: hidden;
+    border-right: 2px dashed var(--accent-color-2);
+    border-left: 2px dashed var(--accent-color-2);
+    margin: auto;
+    width: 40vw;
+}
+
+.carousel {
+    width: 60vw;
+    display: flex;
+}
+
+.item {
+    margin-top: 2%;
+}

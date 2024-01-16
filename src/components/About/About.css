@@ -78,3 +78,18 @@
         line-height: 1.95rem;
     }
 }
+
+@media only screen and (max-width: 499px) {
+    .about-title {
+        font-size: 1.8rem;
+    }
+
+    .about-intro {
+        font-size: 1.2rem;
+    }
+
+    .about-body {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}

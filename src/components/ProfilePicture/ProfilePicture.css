@@ -32,3 +32,10 @@
         width: 21rem;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .profile-picture {
+        margin-top: 10%;
+        width: 15rem;
+    }
+}

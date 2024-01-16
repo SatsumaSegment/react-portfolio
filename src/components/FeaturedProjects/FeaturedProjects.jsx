@@ -1,4 +1,5 @@
 import Card from "../Card/Card";
+import Carousel from "../Carousel/Carousel";
 
 import "./FeaturedProjects.css";
 
@@ -7,9 +8,7 @@ function FeaturedProjects() {
         <div className="featured-section">
             <h1 className="featured-title">Featured Projects</h1>
             <div className="card-container">
-                <Card />
-                <Card />
-                <Card />
+                <Carousel />
             </div>
             <div className="featured-border"></div>
         </div>

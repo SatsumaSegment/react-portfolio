@@ -3,8 +3,7 @@
     margin-bottom: 5%;
     padding: 2%;
     width: 50%;
-    max-width: 320px;
-    min-width: 250px;
+    min-width: 320px;
     border: 2px solid black;
     border-radius: 15px;
     background-color: var(--secondary-color);
@@ -22,6 +21,7 @@
 .card-image {
     width: 80%;
     border-radius: 5px;
+    pointer-events: none;
 }
 
 .card-text {
