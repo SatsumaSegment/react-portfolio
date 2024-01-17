@@ -1,0 +1,8 @@
+.project-card {
+    position: relative;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--text-color);
+    border-radius: 15px;
+    width: 60vw;
+    padding: 2%;
+}

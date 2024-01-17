@@ -1,5 +1,4 @@
-import { motion, useAnimation } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 import Card from "../Card/Card";
 import "./Carousel.css";
 

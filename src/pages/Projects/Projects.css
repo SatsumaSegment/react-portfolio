@@ -1,0 +1,16 @@
+.projects-page {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5%;
+}
+
+.project-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
