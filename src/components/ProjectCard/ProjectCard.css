@@ -18,13 +18,24 @@
 }
 
 .project-card-image {
-    width: 20rem;
+    width: 30rem;
+    height: 12rem;
     border: 2px solid var(--text-color);
     border-radius: 10px;
     margin-right: 2%;
     margin-bottom: 2%;
 }
 
+.project-card-text {
+    font-size: 1.5rem;
+}
+
 .project-card-buttons {
     text-align: right;
+}
+
+.card-button {
+    width: 15%;
+    height: 40px;
+    font-size: 1.2rem;
 }
