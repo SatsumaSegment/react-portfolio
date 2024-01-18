@@ -17,10 +17,10 @@ function ProjectCard(props) {
             <div className="project-card-body">
                 <p className="project-card-text">{props.description}</p>
                 <div className="project-card-buttons">
-                    <button className="card-button" id="card-btn-repo" href={props.code}>
+                    <button className="project-card-button" id="card-btn-repo" href={props.code}>
                         Code
                     </button>
-                    <button className="card-button" id="card-btn-demo" href={props.demo}>
+                    <button className="project-card-button" id="card-btn-demo" href={props.demo}>
                         Demo
                     </button>
                 </div>

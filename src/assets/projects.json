@@ -39,19 +39,19 @@
         {
             "name": "Salty Gizmo",
             "description": "A password generator application written in Python and KivyMD. Allows users to generate a unique salt to encrypt simple passwords and make them uncrackable!",
-            "images": ["/images/projects/daily-planner-page.png", "/images/projects/daily-planner-code.png"],
+            "images": ["/images/projects/salty-page1.png", "/images/projects/salty-page2.png"],
             "links": {
-                "code": "https://github.com/SatsumaSegment/daily-planner-bootcamp-challenge",
-                "demo": "https://satsumasegment.github.io/daily-planner-bootcamp-challenge/"
+                "code": "https://github.com/SatsumaSegment/SaltyGizmo",
+                "demo": ""
             }
         },
         {
             "name": "SoundXone",
-            "description": "An audio playground in which users can interact with sequencers, synths and drum pads to create simple beats and play live instruments.",
-            "images": ["/images/projects/daily-planner-page.png", "/images/projects/daily-planner-code.png"],
+            "description": "An audio playground in which users can interact with sequencers, synths and drum pads to create simple beats and play live instruments. This was my final project for Harvard's CS50 course.",
+            "images": ["/images/projects/soundxone-page1.png", "/images/projects/soundxone-page2.png"],
             "links": {
-                "code": "https://github.com/SatsumaSegment/daily-planner-bootcamp-challenge",
-                "demo": "https://satsumasegment.github.io/daily-planner-bootcamp-challenge/"
+                "code": "https://github.com/SatsumaSegment/CS50-Final-Project",
+                "demo": "https://SatsumaSegment.pythonanywhere.com"
             }
         }
     ]
