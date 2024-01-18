@@ -20,7 +20,8 @@
 
 .card-image {
     width: 80%;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid var(--text-color);
     pointer-events: none;
 }
 

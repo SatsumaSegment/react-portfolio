@@ -7,6 +7,7 @@ import "./assets/styles/App.css";
 // Component imports
 import Navbar from "./components/Header/Navbar";
 import BackgroundAnimation from "./components/Particles/Particles";
+import Footer from "./components/Footer/Footer";
 
 // Page imports
 import Home from "./pages/Home/Home";
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
             </Routes>
             <BackgroundAnimation />
+            <Footer />
         </div>
     );
 }
