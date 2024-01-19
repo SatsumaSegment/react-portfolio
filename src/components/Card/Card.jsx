@@ -7,12 +7,16 @@ function Card(props) {
             <img className="card-image" src={props.image} alt={props.title} />
             <div className="card-body">
                 <p className="card-text">{props.description}</p>
-                <button className="card-button" id="card-btn-repo" href={props.code}>
-                    Code
-                </button>
-                <button className="card-button" id="card-btn-demo" href={props.demo}>
-                    Demo
-                </button>
+                <a href={props.code} target="_blank">
+                    <button className="card-button" id="card-btn-repo">
+                        Code
+                    </button>
+                </a>
+                <a href={props.demo} target="_blank">
+                    <button className="card-button" id="card-btn-demo" href={props.demo}>
+                        Demo
+                    </button>
+                </a>
             </div>
         </div>
     );

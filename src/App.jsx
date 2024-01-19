@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer";
 // Page imports
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
             <BackgroundAnimation />
             <Footer />

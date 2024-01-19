@@ -1,5 +1,4 @@
 .card {
-    margin: auto;
     margin-bottom: 5%;
     padding: 2%;
     width: 50%;
@@ -42,6 +41,7 @@
     box-shadow: 0 0 5px var(--text-color);
     opacity: 90%;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .card-button:hover {

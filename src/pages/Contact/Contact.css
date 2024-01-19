@@ -1,0 +1,48 @@
+.contact-page {
+    padding-top: 4%;
+    margin: auto;
+    height: 85vh;
+    width: 80vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact-main {
+    margin-top: 5%;
+    display: flex;
+}
+
+.socials {
+    width: 50vw;
+}
+
+.contact-form-container {
+    width: 50vw;
+    border-left: 1px solid black;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+textarea {
+    margin: auto;
+    width: 50%;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.resume {
+    margin-top: 10%;
+}

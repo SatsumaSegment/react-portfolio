@@ -10,7 +10,7 @@ function Projects() {
             <h1 className="projects-title">Things I've Made</h1>
             <div className="project-cards-container">
                 {data.data.map((item) => (
-                    <ProjectCard title={item.name} image1={item.images[0]} image2={item.images[1]} description={item.description} code={item.code} demo={item.demo} />
+                    <ProjectCard key={item.id} title={item.name} image1={item.images[0]} image2={item.images[1]} description={item.description} code={item.links.code} demo={item.links.demo} />
                 ))}
             </div>
         </div>

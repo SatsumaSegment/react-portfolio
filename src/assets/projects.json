@@ -1,6 +1,7 @@
 {
     "data": [
         {
+            "id": 1,
             "name": "Team Profile Generator",
             "description": "A command-line program written in Node.js. Designed to generate a Team Profile web page in HTML based on the user's input. Complete with Jest testing.",
             "images": ["/images/projects/team-profile-generator-page.png", "/images/projects/team-profile-generator-tests.png"],
@@ -10,8 +11,9 @@
             }
         },
         {
+            "id": 2,
             "name": "MusicMap",
-            "description": "MusicMap is a web application designed to enhance the user's experience in exploring the concert history and upcoming shows of their favorite musicians.",
+            "description": "MusicMap is a web application designed to enhance the user's experience in exploring the concert history and upcoming events of their favorite bands and artists.",
             "images": ["/images/projects/music-map-page.png", "/images/projects/music-map-page2.png"],
             "links": {
                 "code": "https://github.com/SatsumaSegment/MusicMap",
@@ -19,6 +21,7 @@
             }
         },
         {
+            "id": 3,
             "name": "Weather Dashboard",
             "description": "A Weather Dashboard app built using the Open Weather API. This application allows users to search for the current and future weather conditions in their desiered city.",
             "images": ["/images/projects/weather-map-page1.png", "/images/projects/weather-map-page2.png"],
@@ -28,6 +31,7 @@
             }
         },
         {
+            "id": 4,
             "name": "Daily Planner",
             "description": "A daily planner built using the Days.js API. This application allows users to plan their work day schedule by inputting events which will be saved to local storage for the next time they visit the site.",
             "images": ["/images/projects/daily-planner-page.png", "/images/projects/daily-planner-code.png"],
@@ -37,6 +41,7 @@
             }
         },
         {
+            "id": 5,
             "name": "Salty Gizmo",
             "description": "A password generator application written in Python and KivyMD. Allows users to generate a unique salt to encrypt simple passwords and make them uncrackable!",
             "images": ["/images/projects/salty-page1.png", "/images/projects/salty-page2.png"],
@@ -46,6 +51,7 @@
             }
         },
         {
+            "id": "6",
             "name": "SoundXone",
             "description": "An audio playground in which users can interact with sequencers, synths and drum pads to create simple beats and play live instruments. This was my final project for Harvard's CS50 course.",
             "images": ["/images/projects/soundxone-page1.png", "/images/projects/soundxone-page2.png"],

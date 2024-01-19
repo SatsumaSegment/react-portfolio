@@ -17,12 +17,16 @@ function ProjectCard(props) {
             <div className="project-card-body">
                 <p className="project-card-text">{props.description}</p>
                 <div className="project-card-buttons">
-                    <button className="project-card-button" id="card-btn-repo" href={props.code}>
-                        Code
-                    </button>
-                    <button className="project-card-button" id="card-btn-demo" href={props.demo}>
-                        Demo
-                    </button>
+                    <a href={props.code} target="_blank">
+                        <button className="project-card-button" id="card-btn-repo">
+                            Code
+                        </button>
+                    </a>
+                    <a href={props.demo} target="_blank">
+                        <button className="project-card-button" id="card-btn-demo">
+                            Demo
+                        </button>
+                    </a>
                 </div>
             </div>
         </motion.div>
