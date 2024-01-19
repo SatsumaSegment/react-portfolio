@@ -43,6 +43,11 @@ textarea {
     padding: 2%;
 }
 
+.contact-button {
+    width: 100px;
+    height: 40px;
+}
+
 .resume {
     margin-top: 10%;
 }
