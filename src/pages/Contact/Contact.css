@@ -28,7 +28,7 @@
 }
 
 input {
-    width: 300px;
+    width: 18rem;
     height: 20px;
     margin: auto;
     border-radius: 15px;
@@ -38,7 +38,7 @@ input {
 
 textarea {
     margin: auto;
-    width: 50%;
+    width: 22rem;
     border-radius: 15px;
     padding: 2%;
 }
@@ -49,5 +49,19 @@ textarea {
 }
 
 .resume {
+    position: absolute;
+    right: 46%;
     margin-top: 10%;
+}
+
+@media only screen and (max-width: 780px) {
+    .contact-main {
+        display: block;
+        width: 100vw;
+    }
+
+    .contact-form-container {
+        border: none;
+        width: 100vw;
+    }
 }

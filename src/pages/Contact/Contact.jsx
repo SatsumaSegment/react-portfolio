@@ -9,6 +9,35 @@ function Contact() {
     const sendEmail = (e) => {
         e.persist();
         e.preventDefault();
+
+        // Validate user's input
+        if (e.target[0].value === "") {
+            setStateMessage("Please provide a valid name");
+            setIsSubmitting(false);
+            setTimeout(() => {
+                setStateMessage(null);
+            }, 5000); // hide message after 5 seconds
+            return;
+        }
+
+        if (e.target[1].value === "") {
+            setStateMessage("Please provide a valid email address");
+            setIsSubmitting(false);
+            setTimeout(() => {
+                setStateMessage(null);
+            }, 5000);
+            return;
+        }
+
+        if (e.target[2].value === "") {
+            setStateMessage("Please enter a message");
+            setIsSubmitting(false);
+            setTimeout(() => {
+                setStateMessage(null);
+            }, 5000);
+            return;
+        }
+
         setIsSubmitting(true);
         emailjs.sendForm("service_bhqx3qy", "template_rojsk3j", e.target, "G9Gh7gZqPRSLA7U8y").then(
             (result) => {
@@ -57,7 +86,9 @@ function Contact() {
                 </div>
             </div>
             <div className="resume">
-                <a href="">My Résumé</a>
+                <a href="/Greg Duke CV.pdf" download>
+                    My Résumé
+                </a>
             </div>
         </div>
     );
