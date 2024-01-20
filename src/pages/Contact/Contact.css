@@ -50,11 +50,26 @@ textarea {
 
 .resume {
     position: absolute;
-    right: 46%;
-    margin-top: 10%;
+    top: 90vh;
+    right: 46vw;
+}
+
+.social-link {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.social-links-container {
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 780px) {
+    .contact-page {
+        padding-top: 10%;
+        margin-bottom: 6%;
+    }
+
     .contact-main {
         display: block;
         width: 100vw;
@@ -63,5 +78,10 @@ textarea {
     .contact-form-container {
         border: none;
         width: 100vw;
+    }
+
+    .resume {
+        top: 80vh;
+        right: 38vw;
     }
 }

@@ -1,6 +1,6 @@
 .skills-section {
     margin-top: 5%;
-    width: 25vw;
+    width: 40vw;
 }
 
 .stack {
@@ -32,5 +32,13 @@
 @media only screen and (max-width: 780px) {
     .skills-section {
         width: 100vw;
+    }
+
+    .stack-title {
+        font-size: 1.5rem;
+    }
+
+    .skill-cards img {
+        width: 52px;
     }
 }

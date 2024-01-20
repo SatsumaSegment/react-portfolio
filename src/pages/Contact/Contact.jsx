@@ -65,7 +65,17 @@ function Contact() {
             <h1 className="contact-title">Contact Me</h1>
             <p className="contact-text">Feel free to contact me via social media or using the contact form below</p>
             <div className="contact-main">
-                <div className="socials">socials</div>
+                <div className="socials">
+                    <h3>Social Media</h3>
+                    <div className="social-links-container">
+                        <a href="https://www.linkedin.com/in/greg-duke-b87573247/" target="_blank">
+                            <img src="/images/linkedin.svg" alt="" className="social-link"></img>
+                        </a>
+                        <a href="https://github.com/SatsumaSegment" target="_blank">
+                            <img src="/images/github.svg" alt="" className="social-link"></img>
+                        </a>
+                    </div>
+                </div>
                 <div className="contact-form-container">
                     <form className="contact-form" onSubmit={sendEmail}>
                         <div className="group">
@@ -86,7 +96,7 @@ function Contact() {
                 </div>
             </div>
             <div className="resume">
-                <a href="/Greg Duke CV.pdf" download>
+                <a className="resume-download" href="/Greg Duke CV.pdf" download>
                     My Résumé
                 </a>
             </div>

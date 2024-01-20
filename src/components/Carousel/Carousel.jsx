@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+
 import Card from "../Card/Card";
 
 import data from "../../assets/projects.json";
@@ -6,9 +8,16 @@ import data from "../../assets/projects.json";
 import "./Carousel.css";
 
 function Carousel() {
+    const [width, setWidth] = useState(0);
+    const carousel = useRef();
+
+    useEffect(() => {
+        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+    }, []);
+
     return (
-        <motion.div className="carousel-container">
-            <motion.div drag="x" dragConstraints={{ right: 200, left: -580 }} initial={{ x: -200 }} className="carousel">
+        <motion.div ref={carousel} className="carousel-container">
+            <motion.div drag="x" dragConstraints={{ right: 15, left: -width - 215 }} initial={{ x: -200 }} className="carousel">
                 <motion.div className="item">
                     <Card
                         key={data.data.id}

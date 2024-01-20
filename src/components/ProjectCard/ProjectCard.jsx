@@ -8,7 +8,7 @@ function ProjectCard(props) {
     const isInView = useInView(ref, { once: true });
 
     return (
-        <motion.div className="project-card" ref={ref} animate={{ x: isInView ? "25%" : "translateX()" }} initial={{ x: "-100%" }} transition={{ duration: 1 }}>
+        <motion.div className="project-card" ref={ref} animate={{ x: isInView ? "25%" : "translateX()" }} initial={{ x: props.side }} transition={{ duration: 1 }}>
             <h1 className="project-card-title">{props.title}</h1>
             <div className="project-card-images">
                 <img className="project-card-image" src={props.image1} alt={props.title}></img>
