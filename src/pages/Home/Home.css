@@ -1,15 +1,8 @@
 .home-page-main {
     display: flex;
-    height: 100vh;
+    height: 85vh;
     font-size: larger;
     padding-top: 4%;
-}
-
-.home-page-skills {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    margin-top: 5%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -21,11 +14,6 @@
 @media only screen and (max-width: 780px) {
     .home-page-main {
         display: block;
-    }
-
-    .home-page-skills {
-        display: block;
-        margin-top: 40em;
-        width: 100vw;
+        height: 200vh;
     }
 }

@@ -5,6 +5,7 @@
     border-bottom: 1px solid var(--text-color);
     width: 100vw;
     height: 60px;
+    padding-top: 0.4%;
     text-align: left;
 }
 
@@ -17,8 +18,7 @@
     list-style: none;
     display: inline-flex;
     gap: 10rem;
-    padding: 0;
-    margin-left: 55%;
+    padding-left: 42%;
 }
 
 .nav-link {
@@ -31,12 +31,84 @@
     color: var(--accent-color-1);
 }
 
-@media only screen and (max-width: 1200px) {
+.hamburger {
+    display: none;
+    color: var(--text-color);
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
     .nav-items {
         display: block;
     }
 
     .nav-visible {
         display: none;
+    }
+
+    .nav-brand {
+        position: absolute;
+        margin-top: 5%;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: right;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+
+    .expanded {
+        display: block !important;
+        position: relative;
+        width: 100%;
+        animation: slideDown 1s;
+        z-index: -1;
+        background-color: rgba(207, 207, 201, 0.8);
+    }
+
+    .nav-items {
+        margin: 0;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin-top: 2%;
+        width: 100vw;
+    }
+
+    @keyframes slideDown {
+        0% {
+            margin-top: -15rem;
+        }
+        100% {
+            margin-top: 0rem;
+        }
+    }
+
+    .nav-item {
+        animation: fadeIn 3s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+
+    .nav-item {
+        margin-left: 2%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    .nav-item:hover {
+        background: linear-gradient(to left, var(--accent-color-3) 50%, var(--accent-color-2) 75%) right;
+        background-size: 200%;
+        transition: 0.5s ease-out;
     }
 }

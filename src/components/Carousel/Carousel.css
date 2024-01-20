@@ -1,28 +1,8 @@
-.carousel-container {
-    cursor: grab;
-    overflow: hidden;
-    border-right: 2px dashed var(--accent-color-2);
-    border-left: 2px dashed var(--accent-color-2);
-    margin: auto;
-    width: 40vw;
-}
-
 .carousel {
-    width: 60vw;
     display: flex;
 }
 
 .item {
-    width: 100%;
-    margin-top: 2%;
-}
-
-@media only screen and (max-width: 780px) {
-    .carousel-container {
-        width: 100vw;
-    }
-
-    .carousel {
-        width: 100vw;
-    }
+    position: absolute;
+    width: 20%;
 }

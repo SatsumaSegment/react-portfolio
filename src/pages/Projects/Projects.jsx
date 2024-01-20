@@ -13,7 +13,7 @@ function Projects() {
                     item.id % "2" == "0" ? (
                         <ProjectCard
                             key={item.id}
-                            side="-100%"
+                            side="-50%"
                             title={item.name}
                             image1={item.images[0]}
                             image2={item.images[1]}

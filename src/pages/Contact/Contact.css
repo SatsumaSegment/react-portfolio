@@ -68,11 +68,22 @@ textarea {
     .contact-page {
         padding-top: 10%;
         margin-bottom: 6%;
+        width: 100vw;
+        height: 130vh;
     }
 
     .contact-main {
         display: block;
         width: 100vw;
+    }
+
+    .socials {
+        width: 100vw;
+    }
+
+    .social-links-container {
+        margin-top: -5%;
+        margin-bottom: 10%;
     }
 
     .contact-form-container {
@@ -81,7 +92,8 @@ textarea {
     }
 
     .resume {
-        top: 80vh;
-        right: 38vw;
+        width: 100%;
+        top: 128%;
+        left: 1%;
     }
 }

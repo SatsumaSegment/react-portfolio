@@ -4,10 +4,12 @@
     width: 50%;
     min-width: 320px;
     min-height: 480px;
-    border: 2px solid black;
+
     border-radius: 15px;
-    background-color: var(--secondary-color);
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
     box-shadow: 0 0 15px;
+    touch-action: none;
+    user-select: none;
 }
 
 .card:hover {

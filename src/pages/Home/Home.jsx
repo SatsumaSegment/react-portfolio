@@ -12,10 +12,6 @@ function Home() {
                 <About />
                 <FeaturedProjects />
             </div>
-            <div className="home-page-skills">
-                <Skills />
-                <AdditionalSkills />
-            </div>
         </>
     );
 }
