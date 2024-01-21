@@ -18,7 +18,7 @@ Below are a couple of screenshots showing the Home page of my protfolio in both 
 
 ## Usage
 
-My portfolio can be accessed via this link:
+My portfolio can be accessed via this link: https://greg-duke-portfolio.netlify.app/
 
 ## Credits
 
