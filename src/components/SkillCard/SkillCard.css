@@ -1,16 +1,18 @@
 .skill-card {
     text-align: center;
-    border: 2px solid black;
+    box-shadow: 0 0 10px var(--text-color);
     border-radius: 5px;
-    background-image: linear-gradient(to bottom right, rgba(70, 139, 243, 0.8), rgba(90, 66, 157, 0.8));
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
+    opacity: 80%;
     width: 14%;
     min-width: 50px;
     padding-top: 2%;
     margin-bottom: 2%;
+    font-size: 0.9rem;
 }
 
 .skill-card:hover {
-    background-image: linear-gradient(to bottom right, rgba(70, 139, 243, 1), rgba(90, 66, 157, 1));
+    opacity: 100%;
 }
 
 @media only screen and (max-width: 780px) {

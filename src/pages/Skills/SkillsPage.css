@@ -6,14 +6,41 @@
 
 .skills-content {
     display: flex;
-    padding-left: 10%;
+    justify-content: center;
+}
+
+.resume-container {
+    padding-top: 5%;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.resume-download {
+    padding: 0;
+    border: 0;
+    background: none;
+    background: radial-gradient(circle, rgba(70, 139, 243, 1) 0%, rgba(90, 66, 157, 1) 100%);
+    color: var(--secondary-color);
+    width: 18%;
+    min-width: 120px;
+    height: 80px;
+    font-size: 180%;
+    margin: 1%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--text-color);
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.resume-download:hover {
+    opacity: 100%;
 }
 
 @media only screen and (max-width: 780px) {
     .skills-page {
         padding: 0%;
         padding-top: 15%;
-        height: 180vh;
+        height: 185vh;
     }
 
     .skills-content {

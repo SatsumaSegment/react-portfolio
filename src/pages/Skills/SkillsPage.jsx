@@ -10,6 +10,11 @@ function SkillsPage() {
                 <Skills />
                 <AdditionalSkills />
             </div>
+            <div className="resume-container">
+                <a href="/Greg Duke CV.pdf" target="_blank">
+                    <button className="resume-download">My Résumé</button>
+                </a>
+            </div>
         </div>
     );
 }

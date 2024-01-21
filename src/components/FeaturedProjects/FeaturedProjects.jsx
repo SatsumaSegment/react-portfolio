@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import Card from "../Card/Card";
 import Carousel from "../Carousel/Carousel";
 
@@ -10,7 +12,11 @@ function FeaturedProjects() {
             <div className="card-container">
                 <Carousel />
             </div>
-            <div className="featured-border"></div>
+            <div className="more-container">
+                <NavLink to="/projects" end>
+                    <button className="more-button">View More</button>
+                </NavLink>
+            </div>
         </div>
     );
 }

@@ -95,11 +95,6 @@ function Contact() {
                     </form>
                 </div>
             </div>
-            <div className="resume">
-                <a className="resume-download" href="/Greg Duke CV.pdf" target="_blank">
-                    My Résumé
-                </a>
-            </div>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 // Module imports
-import { Route, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 
 // Style imports
 import "./assets/styles/App.css";

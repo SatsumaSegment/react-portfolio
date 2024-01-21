@@ -46,6 +46,10 @@
     cursor: pointer;
 }
 
+.project-card-button:hover {
+    opacity: 100%;
+}
+
 @media only screen and (max-width: 780px) {
     .project-card {
         text-align: center;

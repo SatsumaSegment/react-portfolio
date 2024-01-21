@@ -10,10 +10,35 @@
     margin-top: 10%;
 }
 
+.more-container {
+    padding-top: 58%;
+}
+
+.more-button {
+    padding: 0;
+    border: 0;
+    background: none;
+    background: radial-gradient(circle, rgba(70, 139, 243, 1) 0%, rgba(90, 66, 157, 1) 100%);
+    color: var(--secondary-color);
+    width: 15%;
+    min-width: 120px;
+    height: 40px;
+    font-size: 100%;
+    margin: 1%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--text-color);
+    opacity: 90%;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 780px) {
     .featured-section {
         margin-top: 18%;
         width: 100vw;
         height: 100vh;
+    }
+
+    .more-container {
+        padding-top: 140%;
     }
 }

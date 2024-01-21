@@ -107,7 +107,7 @@
     }
 
     .nav-item:hover {
-        background: linear-gradient(to left, var(--accent-color-3) 50%, var(--accent-color-2) 75%) right;
+        background: linear-gradient(to left, var(--accent-color-2) 50%, var(--accent-color-1) 75%) right;
         background-size: 200%;
         transition: 0.5s ease-out;
     }
